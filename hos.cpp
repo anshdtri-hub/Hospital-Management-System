@@ -3,21 +3,21 @@ using namespace std;
 
 class MedicalApp {
 protected:
-    // Doctor data
+    
     string d1 = "AnshTripathi";
     string d2 = "Rythm";
     string d3 = "Venkantesh";
 
     int p1 = 1234, p2 = 2026, p3 = 2027;
 
-    // Patient stored data (saved for future use using file handling)
+
     string patientName;
     string patientDOB;
     string patientLoginID;
     int patientPass;
     bool patientRegistered = false;
 
-    // Common input
+    
     char userType;
     int pass;
     string loginID;
